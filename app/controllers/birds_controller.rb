@@ -1,4 +1,4 @@
 class BirdsController < ApplicationController
-  include FastJsonapi::ObjectController 
+  include FastJsonapi::ObjectController
  attributes :name, :species
 end
